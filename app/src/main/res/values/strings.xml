@@ -1,0 +1,6 @@
+<resources>
+<!--    <string name="app_name">RickAndMorty</string>-->
+    <string name="app_name_staging">RickAndMorty STAGING</string>
+    <string name="app_name_dev">RickAndMorty DEV</string>
+    <string name="app_name_prod">RickAndMorty</string>
+</resources>

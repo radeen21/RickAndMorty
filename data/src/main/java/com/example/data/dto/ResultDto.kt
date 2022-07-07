@@ -1,0 +1,26 @@
+package com.example.data.dto
+
+import com.google.gson.annotations.SerializedName
+
+data class ResultDto(
+    @SerializedName("id")
+    val id: Int,
+    @SerializedName("name")
+    val name: String,
+    @SerializedName("status")
+    val status: String,
+    @SerializedName("species")
+    val species: String,
+    @SerializedName("type")
+    val type: String,
+    @SerializedName("gender")
+    val gender: String,
+    @SerializedName("origin")
+    val origin: DataDto,
+    @SerializedName("location")
+    val location: DataDto,
+    @SerializedName("image")
+    val image: String,
+    @SerializedName("episode")
+    val episode: ArrayList<String>
+)
